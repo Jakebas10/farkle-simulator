@@ -11,6 +11,7 @@ def main():
     score_to_win = 10000
 
     new_game = Game(players, score_to_win)
+    new_game.start()
 
 if __name__ == '__main__':
     main()
